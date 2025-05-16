@@ -1,0 +1,2 @@
+D:/personal_finance_app/frontend/android/app/.cxx/Debug/2y4p2y52/x86/CMakeFiles/edit_cache.dir
+D:/personal_finance_app/frontend/android/app/.cxx/Debug/2y4p2y52/x86/CMakeFiles/rebuild_cache.dir

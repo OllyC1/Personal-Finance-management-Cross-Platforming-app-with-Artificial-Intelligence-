@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="18" failures="1" errors="0" time="1.363">
+  <testsuite name="Expense Service" errors="0" failures="0" skipped="0" timestamp="2025-04-10T13:00:04" time="0.757" tests="7">
+    <testcase classname="Expense Service createExpense should create a new expense successfully" name="Expense Service createExpense should create a new expense successfully" time="0.012">
+    </testcase>
+    <testcase classname="Expense Service createExpense should throw an error if amount is negative" name="Expense Service createExpense should throw an error if amount is negative" time="0.009">
+    </testcase>
+    <testcase classname="Expense Service getExpensesByFirebaseUid should return expenses for a user" name="Expense Service getExpensesByFirebaseUid should return expenses for a user" time="0.001">
+    </testcase>
+    <testcase classname="Expense Service getExpensesByFirebaseUid should return empty array if no expenses found" name="Expense Service getExpensesByFirebaseUid should return empty array if no expenses found" time="0">
+    </testcase>
+    <testcase classname="Expense Service updateExpense should update an expense successfully" name="Expense Service updateExpense should update an expense successfully" time="0.003">
+    </testcase>
+    <testcase classname="Expense Service updateExpense should throw an error if expense not found" name="Expense Service updateExpense should throw an error if expense not found" time="0.001">
+    </testcase>
+    <testcase classname="Expense Service updateExpense should throw an error if user does not own the expense" name="Expense Service updateExpense should throw an error if user does not own the expense" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Budget Service" errors="0" failures="1" skipped="0" timestamp="2025-04-10T13:00:04" time="0.766" tests="7">
+    <testcase classname="Budget Service createBudget should create a new budget successfully" name="Budget Service createBudget should create a new budget successfully" time="0.013">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+- Expected
++ Received
+
+  Object {
+    &quot;budget&quot;: 500,
+    &quot;category&quot;: &quot;Food&quot;,
+-   &quot;date&quot;: Any&lt;Date&gt;,
+    &quot;firebaseUid&quot;: &quot;firebase123&quot;,
+    &quot;spent&quot;: 0,
+  },
+
+Number of calls: 1
+    at Object.toHaveBeenCalledWith (D:\personal_finance_app\backend\__tests__\budget.service.test.js:48:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Budget Service createBudget should throw an error if budget amount is negative" name="Budget Service createBudget should throw an error if budget amount is negative" time="0.003">
+    </testcase>
+    <testcase classname="Budget Service getBudgetsByFirebaseUid should return budgets for a user" name="Budget Service getBudgetsByFirebaseUid should return budgets for a user" time="0.001">
+    </testcase>
+    <testcase classname="Budget Service getBudgetsByFirebaseUid should return empty array if no budgets found" name="Budget Service getBudgetsByFirebaseUid should return empty array if no budgets found" time="0.001">
+    </testcase>
+    <testcase classname="Budget Service updateBudget should update a budget successfully" name="Budget Service updateBudget should update a budget successfully" time="0.002">
+    </testcase>
+    <testcase classname="Budget Service updateBudget should throw an error if budget not found" name="Budget Service updateBudget should throw an error if budget not found" time="0.002">
+    </testcase>
+    <testcase classname="Budget Service updateBudget should throw an error if user does not own the budget" name="Budget Service updateBudget should throw an error if user does not own the budget" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="User Service" errors="0" failures="0" skipped="0" timestamp="2025-04-10T13:00:04" time="0.814" tests="4">
+    <testcase classname="User Service registerUser should register a new user successfully" name="User Service registerUser should register a new user successfully" time="0.008">
+    </testcase>
+    <testcase classname="User Service registerUser should throw an error if user already exists" name="User Service registerUser should throw an error if user already exists" time="0.006">
+    </testcase>
+    <testcase classname="User Service getUserByFirebaseUid should return a user by firebase UID" name="User Service getUserByFirebaseUid should return a user by firebase UID" time="0.001">
+    </testcase>
+    <testcase classname="User Service getUserByFirebaseUid should throw an error if user not found" name="User Service getUserByFirebaseUid should throw an error if user not found" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
