@@ -29,7 +29,22 @@ This repository contains both frontend and backend code:
 - Cross-platform compatibility
 
 ## Screenshots
-(Screenshots will be added soon)
+![Dashboard](screenshots/dashboard.png ), (screenshots/dashboard_mobile.png )
+
+### Budget Management
+![Budget Management](screenshots/budget.png)
+
+### Expense Tracking
+![Expense Tracking](screenshots/expense.png)
+
+### Income Tracking
+![Income Tracking](screenshots/income.png)
+
+### Prediction Tracking
+![Prediction Tracking](screenshots/prediction.png)
+### Report Tracking
+![Report Tracking](screenshots/report.png)
+
 
 ## Setup Instructions
 
