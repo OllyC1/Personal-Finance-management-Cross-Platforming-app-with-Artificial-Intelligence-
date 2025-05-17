@@ -41,8 +41,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBgAlqlZn0f-NjqZamOMZ4hQU7rYOdP5xw',
-    appId: '1:731367190580:web:62bdd619ed719a1892da61',
+    apiKey: 'your api key',
+    appId: 'your app id ',
     messagingSenderId: '731367190580',
     projectId: 'personal-finance-app-355cb',
     authDomain: 'personal-finance-app-355cb.firebaseapp.com',
@@ -51,16 +51,16 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCmBY4UvNCVvXJG9lE5DPbbdg7pE9948KA',
-    appId: '1:731367190580:android:cd310b9cc09c054b92da61',
+   apiKey: 'your api key',
+    appId: 'your app id ',
     messagingSenderId: '731367190580',
     projectId: 'personal-finance-app-355cb',
     storageBucket: 'personal-finance-app-355cb.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD6iil5R3V_L7D3kNP9Va5ugaG5CgsRlUU',
-    appId: '1:731367190580:ios:208bd7d2682dd56c92da61',
+   apiKey: 'your api key',
+    appId: 'your app id ',
     messagingSenderId: '731367190580',
     projectId: 'personal-finance-app-355cb',
     storageBucket: 'personal-finance-app-355cb.firebasestorage.app',
@@ -68,8 +68,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD6iil5R3V_L7D3kNP9Va5ugaG5CgsRlUU',
-    appId: '1:731367190580:ios:208bd7d2682dd56c92da61',
+    apiKey: 'your api key',
+    appId: 'your app id ',
     messagingSenderId: '731367190580',
     projectId: 'personal-finance-app-355cb',
     storageBucket: 'personal-finance-app-355cb.firebasestorage.app',
@@ -77,8 +77,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBgAlqlZn0f-NjqZamOMZ4hQU7rYOdP5xw',
-    appId: '1:731367190580:web:da0ce48a50ad92e892da61',
+    apiKey: 'your api key',
+    appId: 'your app id ',
     messagingSenderId: '731367190580',
     projectId: 'personal-finance-app-355cb',
     authDomain: 'personal-finance-app-355cb.firebaseapp.com',
