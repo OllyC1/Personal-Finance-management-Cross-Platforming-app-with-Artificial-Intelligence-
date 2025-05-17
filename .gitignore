@@ -20,3 +20,6 @@ build/
 *.iml
 *.iws
 .DS_Store".env" 
+
+# Firebase credentials
+backend/firebase-adminsdk.json

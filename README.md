@@ -59,5 +59,17 @@ This repository contains both frontend and backend code:
 2. Install Flutter dependencies: `flutter pub get`
 3. Run the application: `flutter run`
 
+## Firebase Setup
+
+This application uses Firebase for authentication and database services. To set up:
+
+1. Create a Firebase project at https://console.firebase.google.com/
+2. Generate a service account key:
+   - Go to Project Settings > Service Accounts
+   - Click "Generate New Private Key"
+   - Save the file securely (do not commit to Git)
+
+3. Create a `.env` file in the backend directory with the following variables:
+
 ## Contact
 For any questions about this project, please contact me at Oladipoibrahim9@gmail.com
