@@ -19,4 +19,4 @@ build/
 .vscode/
 *.iml
 *.iws
-.DS_Store
+.DS_Store".env" 
